@@ -1,0 +1,64 @@
+/* how your website wil look in phone,,,,how to add phone.css to media query */
+
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding:0px 5px;
+    padding-bottom: 6px;
+}
+/* home */
+#home{
+    height:350px;
+    padding:2px 58px;
+}
+#home::before{
+    height:470px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* services */
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    padding:10px;
+    margin:2px 0px;
+    margin-bottom: 18px;
+}
+
+/* client */
+#clients{
+    /* overflow: hidden; */
+    flex-wrap:wrap;
+}
+
+#clients img{
+    height:auto;
+    width:60px;
+    padding:2px 5px;
+
+}
+/* contact us */
+#contact-box form{
+    width:80%;
+
+}
+
+/* footer */
+
+/* utility */
+.h-primary{
+    font-size: 20px
+}
+
+.btn{
+    font-size: 11px;
+}
